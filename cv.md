@@ -1,9 +1,9 @@
-#**Anastasiya Baranouskaya**
+# **Anastasiya Baranouskaya**
 
 ---
-###Frontend Developer
+### Frontend Developer
 
-###*Contakts*
+### *Contakts*
 
 tell: +48791654307
 

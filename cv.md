@@ -1,5 +1,6 @@
 # **Anastasiya Baranouskaya**
 
+![my photos](/img/IMG_3640.jpg)
 ---
 ### Frontend Developer
 
@@ -14,7 +15,7 @@ e-mail: anastasiyabaranouska@gmail.com
 [github](https://github.com/Anastasiya-Baranouskaya)
 
 ----------
-###SUMMARY
+### SUMMARY
 
 I am looking for a full-time job as a frontend developer.
 
@@ -25,7 +26,7 @@ It's very important for me to work for results and to see progress.
 I'm constantly improving my technical skills, soft skills andEnglish level.
 
 --------
-###HARD SKILLS:
+### HARD SKILLS:
 - AutoCad;
 - Vs code;
 - HTML 5;
@@ -37,7 +38,7 @@ I'm constantly improving my technical skills, soft skills andEnglish level.
 - Node;
 
 
-###PROJECT EXPERIENCE:
+### PROJECT EXPERIENCE:
 
 [project 1 donut-masterclass](https://oksidavydova.github.io/donut-masterclass/)
 
@@ -84,7 +85,7 @@ Zoom meeting, asa developer - to section main.
 
 -------
 
-###SOFT SKILLS:
+### SOFT SKILLS:
 - Responsible
 - Keep deadlines
 - Responding to feedback
@@ -94,14 +95,14 @@ Zoom meeting, asa developer - to section main.
 
 -------
 
-###WORK EXPERIENCE
+### WORK EXPERIENCE
 
 *Inventory Engineer* *01/2020 - 10/2020*
 
 BUREAU OF TECHNICAL INVENTORY (REPUBLIC OF BELARUS)
 Carried out an inventory of more than 100 constructionobjects
 
-###HIGHER EDUCATION
+### HIGHER EDUCATION
 
 *BNTU (BELARUSIAN NATIONAL TECHNICAL UNIVERSITY)
 2014 - 2019*
@@ -109,14 +110,14 @@ Carried out an inventory of more than 100 constructionobjects
 Сonstruction Engineer Technologist
 
 ------
-###ADDITIONAL EDUCATION
+### ADDITIONAL EDUCATION
 *GoIt*
 02.2021 - 03.2022
 Frontend Developer (HTML/CSS/SASS/JS/REACT/Node)
 
 ------
 
-###LANGUAGES:
+### LANGUAGES:
 1. Russian - native
 2. Poland - intermediat
 3. English - pre-intermediate

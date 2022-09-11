@@ -15,7 +15,14 @@ e-mail: anastasiyabaranouska@gmail.com
 
 ----------
 ###SUMMARY
-I am looking for a full-time job as a frontend developer. I have experience working in training team projects as a scrum master. It's very important for me to work for results and to see progress. I'm constantly improving my technical skills, soft skills andEnglish level.
+
+I am looking for a full-time job as a frontend developer.
+
+I have experience working in training team projects as a scrum master. 
+
+It's very important for me to work for results and to see progress. 
+
+I'm constantly improving my technical skills, soft skills andEnglish level.
 
 --------
 ###HARD SKILLS:

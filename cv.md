@@ -47,12 +47,19 @@ The project was doneduring the training course, we used technologies - HTML,CSS,
 developer. Ideveloped a section: About us and Program.
 Project-event-booster
 
-`<div id="toTop">
-  <svg class="btn-up__icon">
-    <use href="./images/icons.svg#btn-up"></use>
-  </svg>
-</div>`
-
+`$(document).ready(function () {
+  $("a").on('click', function (event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1000, function () {
+        window.location.hash = hash;
+      });
+    } 
+  });
+});`
 
 [project 2 project-event-booster](https://kashnykovanton.github.io/project-event-booster/)
 

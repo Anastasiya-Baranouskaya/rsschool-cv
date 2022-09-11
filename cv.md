@@ -13,6 +13,11 @@ e-mail: anastasiyabaranouska@gmail.com
 
 [github](https://github.com/Anastasiya-Baranouskaya)
 
+----------
+###SUMMARY
+I am looking for a full-time job as a frontend developer. I have experience working in training team projects as a scrum master. It's very important for me to work for results and to see progress. I'm constantly improving my technical skills, soft skills andEnglish level.
+
+--------
 ###HARD SKILLS:
 - AutoCad;
 - Vs code;
@@ -23,3 +28,60 @@ e-mail: anastasiyabaranouska@gmail.com
 - Git / GitHub;
 - React;
 - Node;
+
+
+###PROJECT EXPERIENCE:
+
+[project 1 donut-masterclass](https://oksidavydova.github.io/donut-masterclass/)
+
+[github project 1](https://github.com/Anastasiya-Baranouskaya/donut-masterclass)
+
+The project was doneduring the training course, we used technologies - HTML,CSS, SASS, JS. My position in project -
+developer. Ideveloped a section: About us and Program.
+Project-event-booster
+
+[project 2 project-event-booster](https://kashnykovanton.github.io/project-event-booster/)
+
+[github project 2](https://github.com/Anastasiya-Baranouskaya/project-event-booster)
+
+The project was doneduring the training course. We used technologies - HTML,CSS, SASS, JS. My position - scrum master and developer. Mymain task as a scrum master were to compose and distributetasks for the project in Trello, to carry out
+Zoom meeting, asa developer - to section main.
+
+-------
+
+###SOFT SKILLS:
+- Responsible
+- Keep deadlines
+- Responding to feedback
+- Can solve a problem on my own
+- Self-study
+- Team player
+
+------
+
+###LANGUAGES:
+1. Russian - native
+2. Poland - intermediat
+3. English - pre-intermediate
+
+-------
+
+###WORK EXPERIENCE
+
+*Inventory Engineer* *01/2020 - 10/2020*
+
+BUREAU OF TECHNICAL INVENTORY (REPUBLIC OF BELARUS)
+Carried out an inventory of more than 100 constructionobjects
+
+###HIGHER EDUCATION
+
+*BNTU (BELARUSIAN NATIONAL TECHNICAL UNIVERSITY)
+2014 - 2019*
+
+Сonstruction Engineer Technologist
+
+------
+###ADDITIONAL EDUCATION
+*GoIt*
+02.2021 - 03.2022
+Frontend Developer (HTML/CSS/SASS/JS/REACT/Node)

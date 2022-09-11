@@ -47,12 +47,33 @@ The project was doneduring the training course, we used technologies - HTML,CSS,
 developer. Ideveloped a section: About us and Program.
 Project-event-booster
 
+`<div id="toTop">
+  <svg class="btn-up__icon">
+    <use href="./images/icons.svg#btn-up"></use>
+  </svg>
+</div>`
+
+
 [project 2 project-event-booster](https://kashnykovanton.github.io/project-event-booster/)
 
 [github project 2](https://github.com/Anastasiya-Baranouskaya/project-event-booster)
 
 The project was doneduring the training course. We used technologies - HTML,CSS, SASS, JS. My position - scrum master and developer. Mymain task as a scrum master were to compose and distributetasks for the project in Trello, to carry out
 Zoom meeting, asa developer - to section main.
+
+`<body>
+    <include src="./partials/header.html"></include>
+
+    <div class="background bg-container">
+      <include src="./partials/main.html"></include>
+      <include src="./partials/footer.html"></include>
+    </div>
+    <include src="./partials/modal.html"></include>
+    <include src="./partials/modal-team.html"></include>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+  </body>`
 
 -------
 
@@ -63,13 +84,6 @@ Zoom meeting, asa developer - to section main.
 - Can solve a problem on my own
 - Self-study
 - Team player
-
-------
-
-###LANGUAGES:
-1. Russian - native
-2. Poland - intermediat
-3. English - pre-intermediate
 
 -------
 
@@ -92,3 +106,10 @@ Carried out an inventory of more than 100 constructionobjects
 *GoIt*
 02.2021 - 03.2022
 Frontend Developer (HTML/CSS/SASS/JS/REACT/Node)
+
+------
+
+###LANGUAGES:
+1. Russian - native
+2. Poland - intermediat
+3. English - pre-intermediate

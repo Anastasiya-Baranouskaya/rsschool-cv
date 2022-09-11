@@ -4,9 +4,13 @@
 ###Frontend Developer
 
 ###*Contakts*
+
 tell: +48791654307
+
 e-mail: anastasiyabaranouska@gmail.com
+
 [linkedin](https://www.linkedin.com/in/anastasiyabaranouskaya-a9b549113)
+
 [github](https://github.com/Anastasiya-Baranouskaya)
 
 ###HARD SKILLS:

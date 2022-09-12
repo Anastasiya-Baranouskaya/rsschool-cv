@@ -1,6 +1,6 @@
 # **Anastasiya Baranouskaya**
 
-![my photos](/img/img_for_CV.jpg)
+![my photos](/img/copy_for_CV.jpg)
 ---
 ### Frontend Developer
 

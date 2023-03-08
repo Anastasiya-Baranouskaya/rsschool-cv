@@ -1,3 +1,4 @@
+![My photo](./7B09783C-287F-488D-83C3-86033904D385.JPG)
 # Anastasiya Baranouskaya
 
 #### **Junior Front-end-Developer**
@@ -16,7 +17,7 @@ Warszawa, Poland
 
 tel. +48 791 654 307
 
-[My e-mail](anastasiyabaranouska@gmail.com)
+My e-mail: anastasiyabaranouska@gmail.com
 
 [My linkedIn](https://www.linkedin.com/in/anastasiyabaranouskayaa9b549113)
 

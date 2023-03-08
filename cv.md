@@ -1,4 +1,4 @@
-![My photo](/7B09783C-287F-488D-83C3-86033904D385.JPG)
+![My photo](myimg.jpg)
 # Anastasiya Baranouskaya
 
 #### **Junior Front-end-Developer**

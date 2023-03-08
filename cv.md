@@ -1,2 +1,2 @@
 # Anastasiya Baranouskaya
-** Front-end-Developer **
+**Junior Front-end-Developer **

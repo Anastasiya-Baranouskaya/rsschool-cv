@@ -4,9 +4,277 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My resume</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+    <img src="/myimg.jpg" width="300" alt="my photo" />
+    <div class="">
+        <!-- Main content section -->
+        <div class="">
+          <!-- About me section-->
+          <div class="">
+              <h1 class="">Anastasiya Baranouskaya</h1>
+              <h4 class="">Front-end-Developer</h2>
+              <h4 class="">SUMMARY</h2>
+                <p class="">
+                I am looking for a full-time job as a frontend developer. I have
+                experience working in training team projects as a scrum master.
+                Very important for me It's to work for results and to see progress.
+                I'm constantly improving my technical skills, soft skills and
+                English level
+                </p>
+          </div>
+          <!-- sidebar sections -->
+        <aside class="">
+            <!-- Contacts sections -->
+            <div class="">
+              <h3 class="">CONTACTS</h3>
+              <div>
+                <span class=""></span>
+                <a class="" href="tel:+48791654307"
+                  >+48 791 654 307</a
+                >
+              </div>
+              <div>
+                <span class=""></span>
+                <a class="" href="mailto:nastenkabv@gmail.com"
+                  >anastasiyabaranouska@gmail.com</a
+                >
+              </div>
+              <div>
+                <span class=""></span>
+                <a class="" href="https://www.linkedin.com/in/anastasiyabaranouskayaa9b549113"
+                  >My linkedin</a
+                >
+              </div>
+              <div>
+                <span class="contacts-section-type"></span>
+                <a class="contcts-section-links" href="https://github.com/Anastasiya-Baranouskaya"
+                  >My GitHub</a
+                >
+              </div>
+            </div>
     
+            <!-- Tech Skills sections-->
+            <div class="">
+              <h3 class="">MY HARD SKILLS</h3>
+              <ul class="">
+                <li class="">
+                  <span class=""> AutoCad</span>
+                </li>
+                <li class="">
+                  <span class=""> Vs code</span>
+                </li>
+                <li class="">
+                  <span class="">HTML 5</span>
+                </li>
+                <li class="">
+                    <span class="">CSS 3</span>
+                </li>
+                <li class="">
+                    <span class="">SASS</span>
+                </li>
+                <li class="">
+                    <span class="">JavaScript</span>
+                </li>
+                <li class="">
+                    <span class="">Git/GitHub</span>
+                </li>
+                <li class="">
+                    <span class="">React</span>
+                </li>
+              </ul>
+            </div>
+    
+            <!-- Soft Skills sections-->
+            <div class="">
+              <h3 class="">MY SOFT SKILLS </h3>
+              <ul class="">
+                <li class="">
+                  <span class="">Responsible</span>
+                </li>
+                <li class="">
+                  <span class="">Keep deadlines</span>
+                </li>
+                <li class="">
+                  <span class="">Responding to feedback</span>
+                </li>
+                <li class="">
+                  <span class="">Can solve a problem on my own</span>
+                </li>
+                <li class="">
+                  <span class="">Self-study</span>
+                </li>
+                <li class="">
+                    <span class="">Team player</span>
+                  </li>
+              </ul>
+            </div>
+    
+            <!-- Knowledge of languages-->
+            <div class="">
+              <h3 class="">LANGUAGES</h3>
+              <ul class="">
+                <li class="">
+                  <span class="">Russion - native</span>
+                </li>
+                <li class="">
+                  <span class="">Polish - intermediat</span>
+                </li>
+                <li class="">
+                  <span class="">English - pre-intermediat</span>
+                </li>
+              </ul>
+            </div>
+    
+          </aside>
+        </div>
+          <!-- My projects section-->
+          <div class="">
+            <h3 class="">PROJECT EXPERIENCE</h3>
+  
+            <ol class="">
+              <li class="">
+                <span class="">
+                  <a
+                    class=""
+                    href="https://github.com/AnastasiyaBaranouskaya/donut-masterclass"
+                    >Donut-masterclass</a>
+                    <p>
+                    The project was done during the training course, we used technologies - HTML, CSS, SASS, JS. My position in project - developer. I developed a section: About us and Program.
+                    <span class="">[ </span> HTML5, CSS3, SASS, JS
+                    <span class="">]</span>
+                    </p>
+                </span>
+              </li>
+              <li class="">
+                <span class="">
+                  <a
+                    class=""
+                    href="https://github.com/AnastasiyaBaranouskaya/project-event-booster"
+                    >Project-event-booster</a>
+                    <p>
+                        The project was done during the training course. We used technologies - HTML, CSS, SASS, JS. My position - scrum master and developer. My main task as a scrum master were to compose and distribute tasks for the project in Trello, to carry out Zoom meeting, as a developer - to section main.
+                        <span class="">[</span> JavaScript
+                        <span class="">]</span>
+                    </p>
+                </span>
+              </li>
+             
+            </ol>
+          </div>
+                    <!-- CODE EXAMPLES -->
+            <div class="">
+                <h3 class="">CODE EXAMPLES</h3>
+                <p>Timer</p>   
+                <code >
+                    <div style="margin: 20px;">
+                        updateTimer({ container, daysRef, hoursRef, minsRef, secsRef }) {<br>
+                            const time = this.targetDate - Date.now();    <br>
+                            if (time < 0) { <br>
+                                clearInterval(this.idInterval); <br>
+                                container.innerHTML = "&lt;<span>h1</span>&gt;Time is over &lt;/h1&gt;"; <br>
+                                return;<br>
+                            }<br>
+                            daysRef.textContent = Math.floor(time / (1000 * 60 * 60 * 24))<br>
+                            .toString()<br>
+                            .padStart(2, "0");<br>
+                            hoursRef.textContent = Math.floor(<br>
+                            (time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)<br>
+                            )<br>
+                            .toString()<br>
+                            .padStart(2, "0");<br>
+                            minsRef.textContent = Math.floor((time % (1000 * 60 * 60)) / (1000 * 60))<br>
+                            .toString()<br>
+                            .padStart(2, "0");<br>
+                            secsRef.textContent = Math.floor((time % (1000 * 60)) / 1000)<br>
+                            .toString()<br>
+                            .padStart(2, "0");<br>
+                        }<br>
+                    </div>
+                </code>
+            </div>
+
+            <!-- Education sections -->
+          <div class="">
+            <h2 class="">HIGHER EDUCATION</h2>
+            <h5 class="">
+                Сonstruction Engineer Technologist.<span class=""> |</span>
+                BNTU (BELARUSIAN NATIONAL TECHNICAL UNIVERSITY)
+               
+            </h5>
+           
+            <p class="">
+                <span style="color: darkgray; font-size: 15px;">September 2009 - June 2014</span>
+                
+            </p>
+            <i>Production of building products and structures.</i>
+           </div>
+
+           <div>
+            <h2 class="">ADDITIONAL EDUCATION</h2>
+            <h5 class="">
+                Front-end-Developer [HTML, CSS, SASS, JS, Node, React]<span class=""> |</span>
+              Courses in Front-end-Developer in GoIt
+              
+            </h5>
+            <p class="">
+                <span style="color: darkgray; font-size: 15px;">March 2021 - March 2022</span>
+            </p>
+            
+          </div>
+
+          <!-- My work experience section-->
+          <div class="">
+            <h3 class="">WORK EXPERIENCE</h3>
+            <!-- Compani 1 -->
+            <div>
+                <h3 class="">
+                  Trafic manager
+                  <span class=""> | </span> Netsense.pl Sp. ZOO
+                </h3>
+                <p class="">
+                  August 2022 - now
+                </p>
+                <i>
+                    Coordination of audio, video and perfo advertising companies.
+                </i>
+                
+              </div>
+            </div>
+
+            <!-- Compani 2 -->
+            <div class="">
+              <h3 class="">
+                Engineer
+                <span class=""> | </span>
+                  Bureau of Technical Inventory
+                
+              </h3>
+              <p class="">
+                February 2020 - September 2022
+                
+              </p>
+              <ul class="">
+                <li class="">
+                  Inventory of apartment buildings.
+                </li>
+                <li class="">
+                  Drawings in the AutoCad of measured houses.
+                </li>
+                <li class="">
+                  Preparation of technical documentation for real estate.
+                </li>
+              </ul>
+            </div>
+            
+        </div>
+        
 </body>
 </html>

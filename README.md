@@ -1,1 +1,1 @@
-https://Anastasiya-Baranouskya.github.io/rsschool-cv/
+# rsschool-cv

@@ -1,13 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=!, initial-scale=1.0" />
     <title>My resume</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- Main container -->
+    <div class="Main-container">
+      <!-- Main content section -->
+      <div class="main-content-section">
+        <!-- About me section-->
+        <div class="About-me-section">
+          <h2 class="About-me-profession">Front-end-Developer</h2>
+          <h1 class="About-me-name">Anastasiya Baranouskaya</h1>
+          <p class="About-me-description">
+            I am looking for a full-time job as a frontend developer. I have
+            experience working in training team projects as a scrum master.
+            Very important for me It's to work for results and to see progress.
+            I'm constantly improving my technical skills, soft skills and
+            English level
+          </p>
+        </div>
+        <!-- My projects section-->
+        <div class="My-projects-section">
+          <h3 class="main-content-title">Projects</h3>
+          <ol class="My-projects-list">
+            <li class="My-proejkt-item">
+              <span class="My-projects-text">
+                <a
+                  class="My-projects-link"
+                  href="https://oksidavydova.github.io/donut-masterclass/"
+                  >Donut-masterclass</a
+                >
+                <p>The project was done during the training course, we used technologies - HTML, CSS, SASS, JS. My position in project - developer. I developed a section: About us and Program. [HTML,CSS]</p>
+              </span>
+            </li>
+            <li class="My-proejkt-item">
+              <span class="My-projects-text">
+                <a
+                  class="My-projects-link"
+                  href="https://cryptohub.goit.education/"
+                  >Project-event-booster</a
+                >
+                <p> The project was done during the training course. We used technologies - HTML, CSS, SASS, JS. My position - scrum master and developer. My main task as a scrum master were to compose and distribute tasks for the project in Trello, to carry out Zoom meeting, as a developer - to section main. [HTML,CSS,JavaScript]</p>
+              </span>
+            </li>
+          </ol>
+        </div>
+         <!-- CODE EXAMPLES -->
+         <div>
+          <h3>CODE EXAMPLES</h3>
+          <p>Timer</p>   
+          <div style="margin: 20px;">
+                  updateTimer({ container, daysRef, hoursRef, minsRef, secsRef }) {<br>
+                      const time = this.targetDate - Date.now();    <br>
+                      if (time &lt; 0) { <br>
+                          clearInterval(this.idInterval); <br>
+                          container.innerHTML = "&lt;<span>h1</span>&gt;Time is over &lt;/h1&gt;"; <br>
+                          return;<br>
+                      }<br>
+                      daysRef.textContent = Math.floor(time / (1000 * 60 * 60 * 24))<br>
+                      .toString()<br>
+                      .padStart(2, "0");<br>
+                      hoursRef.textContent = Math.floor(<br>
+                      (time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)<br>
+                      )<br>
+                      .toString()<br>
+                      .padStart(2, "0");<br>
+                      minsRef.textContent = Math.floor((time % (1000 * 60 * 60)) / (1000 * 60))<br>
+                      .toString()<br>
+                      .padStart(2, "0");<br>
+                      secsRef.textContent = Math.floor((time % (1000 * 60)) / 1000)<br>
+                      .toString()<br>
+                      .padStart(2, "0");<br>
+                  }<br>
+=======
       rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -49,185 +123,184 @@
                 <a href="https://github.com/Anastasiya-Baranouskaya">My GitHub</a>
               </div>
             </div>
-            <!-- Tech Skills sections-->
-            <div>
-              <h3>MY HARD SKILLS</h3>
-              <ul>
-                <li>
-                  <span> AutoCad</span>
-                </li>
-                <li>
-                  <span> Vs code</span>
-                </li>
-                <li>
-                  <span>HTML 5</span>
-                </li>
-                <li>
-                    <span>CSS 3</span>
-                </li>
-                <li>
-                    <span>SASS</span>
-                </li>
-                <li>
-                    <span>JavaScript</span>
-                </li>
-                <li>
-                    <span>Git/GitHub</span>
-                </li>
-                <li>
-                    <span>React</span>
-                </li>
-              </ul>
-            </div>
-           <!-- Soft Skills sections-->
-            <div>
-              <h3>MY SOFT SKILLS</h3>
-              <ul>
-                <li>
-                  <span>Responsible</span>
-                </li>
-                <li>
-                  <span>Keep deadlines</span>
-                </li>
-                <li>
-                  <span>Responding to feedback</span>
-                </li>
-                <li>
-                  <span>Can solve a problem on my own</span>
-                </li>
-                <li>
-                  <span>Self-study</span>
-                </li>
-                <li>
-                    <span>Team player</span>
-                  </li>
-              </ul>
-            </div>
-           <!-- Knowledge of languages-->
-            <div>
-              <h3>LANGUAGES</h3>
-              <ul>
-                <li>
-                  <span>Russion - native</span>
-                </li>
-                <li>
-                  <span>Polish - intermediat</span>
-                </li>
-                <li>
-                  <span>English - pre-intermediat</span>
-                </li>
-              </ul>
-            </div>
-          </aside>
-        </div>
-          <!-- My projects section-->
-          <div>
-            <h3>PROJECT EXPERIENCE</h3>
-            <ol>
-              <li>
-                <span>
-                  <a href="https://github.com/AnastasiyaBaranouskaya/donut-masterclass">Donut-masterclass</a>
-                  </span>
-                  <p>The project was done during the training course, we used technologies - HTML, CSS, SASS, JS. My position in project - developer. I developed a section: About us and Program. [HTML5, CSS3, SASS, JS]</p>
-              </li>
-              <li>
-                <span>
-                  <a href="https://github.com/AnastasiyaBaranouskaya/project-event-booster">Project-event-booster</a>
-                  </span>
-                  <p> The project was done during the training course. We used technologies - HTML, CSS, SASS, JS. My position - scrum master and developer. My main task as a scrum master were to compose and distribute tasks for the project in Trello, to carry out Zoom meeting, as a developer - to section main. [HTML,CSS,JavaScript]</p>
-              </li>
-            </ol>
-          </div>
-                    <!-- CODE EXAMPLES -->
-            <div>
-                <h3>CODE EXAMPLES</h3>
-                <p>Timer</p>   
-                <div style="margin: 20px;">
-                        updateTimer({ container, daysRef, hoursRef, minsRef, secsRef }) {<br>
-                            const time = this.targetDate - Date.now();    <br>
-                            if (time &lt; 0) { <br>
-                                clearInterval(this.idInterval); <br>
-                                container.innerHTML = "&lt;<span>h1</span>&gt;Time is over &lt;/h1&gt;"; <br>
-                                return;<br>
-                            }<br>
-                            daysRef.textContent = Math.floor(time / (1000 * 60 * 60 * 24))<br>
-                            .toString()<br>
-                            .padStart(2, "0");<br>
-                            hoursRef.textContent = Math.floor(<br>
-                            (time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)<br>
-                            )<br>
-                            .toString()<br>
-                            .padStart(2, "0");<br>
-                            minsRef.textContent = Math.floor((time % (1000 * 60 * 60)) / (1000 * 60))<br>
-                            .toString()<br>
-                            .padStart(2, "0");<br>
-                            secsRef.textContent = Math.floor((time % (1000 * 60)) / 1000)<br>
-                            .toString()<br>
-                            .padStart(2, "0");<br>
-                        }<br>
-                    </div>
-                  </div>
-            <!-- Education sections -->
-          <div>
-            <h2>HIGHER EDUCATION</h2>
-            <h5>
-                Сonstruction Engineer Technologist.<span > |</span>
-                BNTU (BELARUSIAN NATIONAL TECHNICAL UNIVERSITY)
-            </h5>           
-            <p>
-                <span style="color: darkgray; font-size: 15px;">September 2009 - June 2014</span>
+        <!-- My work experience section-->
+        <div class="My-work-experience-section">
+          <h3 class="main-content-title">My work experience</h3>
+          <!-- Compani 3 -->
+          <div class="My-work-experience-company-blok">
+            <h4 class="My-work-experience-position">
+              Trafic manager
+              <span class="My-work-experience-company">
+                Netsense.pl Sp. ZOO
+              </span>
+            </h4>
+            <p class="My-work-experience-period">
+              09.2022 - now
+              <span class="My-work-experience-divided"> | </span> Poland
             </p>
-            <i>Production of building products and structures.</i>
-           </div>
-           <div>
-            <h2>ADDITIONAL EDUCATION</h2>
-            <h5>
-              Front-end-Developer [HTML, CSS, SASS, JS, Node, React]<span> |</span>
-              Courses in Front-end-Developer in GoIt
-             </h5>
-            <p >
-                <span style="color: darkgray; font-size: 15px;">March 2021 - March 2022</span>
-            </p>
+            <ul class="My-work-experience-duties">
+              <li class="My-work-experience-duty">
+                Coordination of audio, video and perfo advertising companies.
+              </li>
+            </ul>
           </div>
-          <!-- My work experience section-->
+          <!-- Compani 1 -->
           <div>
-            <h3>WORK EXPERIENCE</h3>
-            <!-- Compani 1 -->
-            <div>
-                <h3>
-                  Trafic manager
-                  <span> | </span> Netsense.pl Sp. ZOO
-                </h3>
-                <p>
-                  August 2022 - now
-                </p>
-                <i>
-                    Coordination of audio, video and perfo advertising companies.
-                </i>
-              </div>
-            </div>
-            <!-- Compani 2 -->
-            <div>
-              <h3>
-                Engineer
-                <span> | </span>
-                  Bureau of Technical Inventory
-              </h3>
-              <p>
-                February 2020 - September 2022
-              </p>
-              <ul>
-                <li>
-                  Inventory of apartment buildings.
-                </li>
-                <li>
-                  Drawings in the AutoCad of measured houses.
-                </li>
-                <li>
-                  Preparation of technical documentation for real estate.
-                </li>
-              </ul>
-            </div>            
+            <h4 class="My-work-experience-position">
+              Engineer 
+              <span class="My-work-experience-company">
+                Bureau of Technical Inventory
+              </span>
+            </h4>
+            <p class="My-work-experience-period">
+              02.2020 - 09.2020
+              <span class="My-work-experience-divided"> | </span>Belarus
+            </p>
+            <ul class="My-work-experience-duties">
+              <li class="My-work-experience-duty">
+                Inventory of apartment buildings.
+              </li>
+              <li class="My-work-experience-duty">
+                Drawings in the AutoCad of measured houses.
+              </li>
+              <li class="My-work-experience-duty">
+                Preparation of technical documentation for real estate.
+              </li>
+            </ul>
+          </div>
         </div>
-      </body>
+        <!-- Education sections section-->
+        <div class="My-Education-section">
+          <h2 class="My-Education-header">Education</h2>
+          <h3 class="My-Education-section-university">
+            Belarusian National Technical University
+          </h3>
+          <h4 class="My-Education-section-university-team">
+            Process Engineer for the production of building products and structures
+          </h4>
+          <p class="My-Education-section-period">
+            09.2009 - 06.2014
+            <span class="My-work-experience-divided"> |</span> Belarus
+          </p>
+        </div>
+        <!-- sidebar sections -->
+      </div>
+      <aside class="sidebar-sections">
+        <img src="/myimg.jpg" width="300" alt="my photo" />
+
+        <!-- Contacts sections -->
+        <div class="Contacts-section">
+          <h3 class="sidebar-title">Contacts</h3>
+          <div>
+            <a class="contcts-section-links" href="tel:+48791654307" target="_blank">
+              +48 791 654 307
+            </a>
+          </div>
+          <div>
+            <a class="contcts-section-links" href="mailto:anastasiyabaranouska@gmail.com" target="_blank">
+              anastasiyabaranouska@gmail.com
+            </a>
+          </div>
+          <div>
+            <a class="contcts-section-links" href="https://github.com/Anastasiya-Baranouskaya" target="_blank">
+              My GitHub
+            </a>
+          </div>
+          <div>
+            <a class="contcts-section-links" href="https://linkedin.com/in/anastasiyabaranouskaya-a9b549113" target="_blank">
+              My Linkedin
+            </a>
+          </div>
+        </div>
+        <!-- Tech Skills sections-->
+        <div class="Tech-Skills-section">
+          <h3 class="sidebar-title">Tech Skills</h3>
+          <ul class="Tech-Skills-list">
+            <li class="Tech-Skills-item">
+              <span class="Tech-Skills-item-text"> HTML 5</span>
+            </li>
+            <li class="Tech-Skills-item">
+              <span class="Tech-Skills-item-text"> CSS 3</span>
+            </li>
+            <li class="Tech-Skills-item">
+              <span class="Tech-Skills-item-text"> SASS</span>
+            </li>
+            <li class="Tech-Skills-item">
+              <span class="Tech-Skills-item-text"> JavaScript</span>
+            </li>
+            <li class="Tech-Skills-item">
+              <span class="Tech-Skills-item-text"> React</span>
+            </li>
+            <li class="Tech-Skills-item">
+              <span class="Tech-Skills-item-text"> Git/GitHub</span>
+            </li>
+            <li class="Tech-Skills-item">
+              <span class="Tech-Skills-item-text"> AutoCad</span>
+            </li>
+            <li class="Tech-Skills-item">
+              <span class="Tech-Skills-item-text"> Microsoft Word</span>
+            </li>
+            <li class="Tech-Skills-item">
+              <span class="Tech-Skills-item-text">Microsoft Ecxel</span>
+            </li>
+          </ul>
+        </div>
+        <!-- Soft Skills sections-->
+        <div class="Soft-Skills-sections">
+          <h3 class="sidebar-title">MY SOFT SKILLS</h3>
+          <ul class="Soft-Skills-list">
+            <li class="Soft-Skills-item">
+              <span class="Soft-Skills-item-text">Responsible</span>
+            </li>
+            <li class="Soft-Skills-item">
+              <span class="Soft-Skills-item-text">Keep deadlines</span>
+            </li>
+            <li class="Soft-Skills-item">
+              <span class="Soft-Skills-item-text">Responding to feedback</span>
+            </li>
+            <li class="Soft-Skills-item">
+              <span class="Soft-Skills-item-text">Can solve a problem on my own</span>
+            </li>
+            <li class="Soft-Skills-item">
+              <span class="Soft-Skills-item-text">Self-study</span>
+            </li>
+            <li class="Soft-Skills-item">
+              <span class="Soft-Skills-item-text">
+                Team player</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Knowledge of languages-->
+        <div class="Knowledge-of-languages-sections">
+          <h3 class="sidebar-title">Knowledge of languages</h3>
+          <ul class="Soft-Skills-list">
+            <li class="Soft-Skills-item">
+              <span class="Soft-Skills-item-text">Russion - native</span>
+            </li>
+            <li class="Soft-Skills-item">
+              <span class="Soft-Skills-item-text">Polish - intermediat</span>
+            </li>
+            <li class="Soft-Skills-item">
+              <span class="Soft-Skills-item-text">English - pre-intermediat</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Completed courses-->
+        <div class="Completed-courses-sections">
+          <h3 class="sidebar-title">Completed courses</h3>
+          <ul class="Soft-Skills-list">
+            <li class="Soft-Skills-item">
+              <span class="Soft-Skills-item-text">3d-visualization</span>
+            </li>
+            <li class="Soft-Skills-item">
+              <span class="Soft-Skills-item-text">Front-end-Developer</span>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </body>
 </html>
